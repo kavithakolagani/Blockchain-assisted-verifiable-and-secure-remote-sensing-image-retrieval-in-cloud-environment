@@ -1,0 +1,118 @@
+Blockchain-assisted verifiable and secure remote sensing image 
+retrieval in cloud environment 
+Abstract
+
+Secure retrieval of remote sensing images in an outsourced cloud environment 
+garners considerable attention. Since the cloud service provider (CSP) is 
+considered as a semi-trusted third party that may return incorrect retrieval results 
+to save computational resources or defraud retrieval fees for profit, it becomes a 
+critical challenge to achieve secure invariable remote sensing image retrieval. 
+This paper presents a secure retrieval and blockchain-assisted verifiable scheme 
+for encrypted remote sensing images in the cloud environment. In response to the 
+characteristic that geographical objects in remote sensing images with clear 
+category attributes, we design remote sensing image retrieval method to facilitate 
+secure inefficient retrieval. In addition, we propose a verifiable method combined 
+with blockchain and Merkle trees for checking the integrity and correctness of 
+the storage and retrieval services provided by CSP, which can replace the 
+traditional third-party auditor. The security analysis and experimental evaluation 
+demonstrate the security, verifiability, and feasibility of the proposed scheme, 
+achieving secure remote sensing image retrieval while preventing malicious 
+behaviour of CSP.
+
+Existing System: 
+
+The framework of secure CBIR is generally composed of two modules: feature 
+protection and feature similarity measurement. The progress of these modules 
+will be reviewed specifically. The goal of feature protection is to extract the image 
+features and encrypt them with encryption techniques to ensure the encrypted 
+image feature descriptors can be used for retrieval calculation. Generally, the 
+visual content of remote sensing images is expressed by traditional hand-crafted 
+or deep network features [25]. In particular, deep learning networks have been 
+demonstrated to have a strong ability to recognize essential features of images 
+[26]. As a result, it is feasible and acceptable to employ deep network features to 
+retrieve remote sensing images since they show an overwhelming advantage over 
+hand-crafted features 
+
+Disadvantages: 
+
+Although works [7] have low computational complexity, the encrypted features 
+still remain the original feature information and the retrieval performance is 
+insufficient, implying that the retrieval security and performance of these works 
+are invade-quate. To solve the above problems, a secure image retrieval based on 
+homomorphic encryption is proposed 
+Proposed system: 
+we propose a blockchain-assisted verifiable and secure remote sensing im-age 
+retrieval in the cloud environment in this paper. Our goal is to share remote 
+sensing images securely and efficiently a semi-trusted cloud environment, as well 
+as check the integrity and correctness of retrieval results without TPA. 
+
+Advantages: 
+
+Considering the vulnerabilities of TPA, the blockchain is employed for security 
+verification in this paper. Since current retrieval verification schemes do not 
+consider the correctness of the retrieved results and the correctness of the 
+similarity ranking of the returned images, we combine blockchain. 
+Modules: 
+User: 
+
+Using this module mobile user can register with application and 
+login with valid username and password. User will get key from key 
+management to login upload image and encrypt data and send to cloud 
+server with block chain for attribute. User can view data and send to cloud..  
+
+Cloud Server : 
+
+Using this module cloud server will login view data uploaded by user and 
+view requests from retravel user and respond to message by send request 
+to block and verify block chain and then send decryption key to retravel 
+user. 
+
+Block chain Server:      
+
+Using this module block chain server can login view requests from cloud 
+server verify block chain and send confirmation to retravel user.            
+
+Key management : 
+
+Using this module key management will login and 
+view users authorize and send security key for login. 
+
+Architecture: 
+
+System Requirements: 
+SYSTEM REQUIREMENTS: 
+HARDWARE REQUIREMENTS: 
+• PROCESSOR   
+• Hard Disk          
+• Ram    
+: I3. 
+SOFTWARE REQUIREMENTS: 
+• Operating system  
+: 40 GB. 
+: 2 GB. 
+: Windows. 
+• Coding Language 
+• Data Base  
+• IDE   
+References: 
+:  
+:  
+JAVA/J2EE 
+MYSQL 
+:Netbeans8.1 
+[1] H. Tamiminia, B. Salehi, M. Mahdianpari, L. Quackenbush, S. Adeli,and B. 
+Brisco, “Google earth engine for geo-big data applications: Ameta-analysis and 
+systematic review,” ISPRS Journal of Photogram-metry and Remote Sensing, 
+vol. 164, pp. 152–170, 2020. 
+[2] P. Gao, H. Zhang, J. Yu, J. Lin, X. Wang, M. Yang, and F. Kong, “Se-cure 
+cloud-aided object recognition on hyperspectral remote sensingimages,” IEEE 
+Internet of Things Journal, vol. 8, no. 5, pp. 3287–3299, 2021. 
+[3] Q. Zhao, S. Chen, Z. Liu, T. Baker, and Y. Zhang, “Blockchain-based privacy
+preserving remote data integrity checking scheme foriot information systems,” 
+Information Processing & Management,vol. 57, no. 6, p. 102355, 2020. 
+[4] K. N. Sukhia, M. M. Riaz, A. Ghafoor, and S. S. Ali, “Content-basedremote 
+sensing image retrieval using multi-scale local ternary pattern,”Digital Signal 
+Processing, vol. 104, p. 102765, 2020. 
+[5] J. Zhu, Q. Li, C. Wang, X. Yuan, Q. Wang, and K. Ren, “Enablinggeneric, 
+verifiable, and secure data search in cloud services,” IEEETransactions on 
+Parallel and Distributed Systems, vol. 29, no. 8, pp.1721–1735, 2018 
